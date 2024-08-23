@@ -51,7 +51,7 @@ body {
 }
 
 .nav-links a:hover {
-    color: #fff; /* Change this color to your preferred hover color */
+    color: #333; /* Change this color to your preferred hover color */
 }
 
 .home-text {
@@ -106,18 +106,53 @@ body {
 
 .s-button {
     margin: 15px;
-    border-radius: 10px;
-   border-color: black;
-    color: #fff;
-    
-    opacity: 0.9;
-    font-family: "Questrial", sans-serif;
+    background-color: rgb(253, 218, 13);
+    margin-left: 40px;
+    margin-bottom: 40px;
+    color: #333;
     font-weight: 400;
-    font-style: normal;
-    width: 80px;
-    height: 30px;
+    font-family: "Questrial", sans-serif;
+    width: 250px;
+    height: 80px;
+    border-radius: 40px;
+    font-size: 20px;
+}
+
+    .white-section .t-button {
+        margin: 15px;
+        background-color: black;
+        margin-left: 800px;
+        margin-bottom: 60px;
+        color: #fff;
+        font-weight: 400;
+        font-family: "Questrial", sans-serif;
+        width: 250px;
+        height: 80px;
+        border-radius: 40px;
+        font-size: 20px;
+
+
+    }
    
 
+
+
+.white-section h1 {
+    color: #333;
+    font-size: 30px;
+    text-align: center;
+    line-height: 2.0em;
+    font-family: "Questrial", sans-serif;
+    font-weight: 400;
+    padding: 80px;
+    line-height: 2.0em;
+    
+    
+
+}
+
+.white-section {
+    background-color: aliceblue;
 }
 
 
